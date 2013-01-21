@@ -1,0 +1,4 @@
+# name: Syso
+# key: syso
+# --
+System.out.println("$0");
