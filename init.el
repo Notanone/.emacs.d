@@ -43,7 +43,8 @@
    (cons 'smartparens melpa)
    (cons 'smex melpa)
    (cons 'yasnippet melpa)
-   (cons 'solarized-theme melpa)))
+   (cons 'solarized-theme melpa)
+   (cons 'groovy-mode melpa)))
 
 (condition-case nil
     (init--install-packages)
