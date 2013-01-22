@@ -1,0 +1,6 @@
+auto-save-list
+backups
+server
+emacs-cache
+elpa
+*.elc
