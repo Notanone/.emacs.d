@@ -64,11 +64,6 @@
 ;; Don't break lines for me, please
 (setq-default truncate-lines t)
 
-;; Add marmalade to package repos
-(eval-after-load "package"
-  '(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/")))
-(package-initialize) 
-
 ;;Show line numbers
 (global-linum-mode 1)
 

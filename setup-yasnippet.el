@@ -1,7 +1,7 @@
 (require 'yasnippet)
 
 ;; Use only own snippets, do not use bundled ones
-;;(setq yas/snippet-dirs (expand-file-name "snippets" dotfiles-dir))
+(setq yas/snippet-dirs (expand-file-name "snippets" dotfiles-dir))
 (yas/global-mode 1)
 
 ;; Jump to end of snippet definition

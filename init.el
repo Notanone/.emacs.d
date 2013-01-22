@@ -27,6 +27,29 @@
 ;; Lets start with a smattering of sanity
 (require 'defaults)
 
+;; Packages setup
+(require 'setup-package)
+
+;; Install extensions if they're missing
+(defun init--install-packages ()
+  (packages-install
+   (cons 'clojure-mode melpa)
+   (cons 'dash melpa)
+   (cons 'expand-region melpa)
+   (cons 'ido-ubiquitous melpa)
+   (cons 'monokai-theme marmalade)
+   (cons 'multiple-cursors melpa)
+   (cons 'nrepl melpa) 
+   (cons 'smartparens melpa)
+   (cons 'smex melpa)
+   (cons 'yasnippet melpa)
+   (cons 'solarized-theme melpa)))
+
+(condition-case nil
+    (init--install-packages)
+  (error
+   (package-refresh-contents)
+   (init--install-packages)))
 
 ;; Misc
 (require 'appearance)
