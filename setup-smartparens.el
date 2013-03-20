@@ -7,14 +7,8 @@
 (setq sp-highlight-wrap-tag-overlay nil)
 
 
-(sp-with '( clojure-mode
-	    nrepl-mode
-           )
-  ;; disable ' everywhere, it's the quote character!
-  (sp-add-local-ban-insert-pair "'")
-  ;; also disable the pseudo-quote inside code.  We keep it in
-  ;; commends and strings for hyperlinks
-  (sp-add-local-ban-insert-pair-in-code "`"))
+(sp-with-modes '(clojure-mode nrepl-mode)
+  (sp-local-pair "'" nil :unless nil))
 
 (provide 'setup-smartparens)
 

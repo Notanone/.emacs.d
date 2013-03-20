@@ -3,4 +3,5 @@ backups
 server
 emacs-cache
 elpa
+url
 *.elc
