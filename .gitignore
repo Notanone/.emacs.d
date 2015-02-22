@@ -1,7 +1,6 @@
 auto-save-list
-backups
+temp
 server
-emacs-cache
 elpa
 url
 *.elc
