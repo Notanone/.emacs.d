@@ -52,6 +52,7 @@
    multiple-cursors
    expand-region
    smart-mode-line
+   groovy-mode
    solarized-theme
    ))
 
