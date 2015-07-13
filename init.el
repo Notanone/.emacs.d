@@ -54,6 +54,7 @@
    smart-mode-line
    groovy-mode
    solarized-theme
+   cider
    ))
 
 (require 'appearance)
