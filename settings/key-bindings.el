@@ -22,4 +22,10 @@
 (global-set-key (kbd "C-x f") 'recentf-open-files)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
+;; Window navigation
+(global-set-key (kbd "<S-right>") 'windmove-right)
+(global-set-key (kbd "<S-left>") 'windmove-left)
+(global-set-key (kbd "<S-up>") 'windmove-up)
+(global-set-key (kbd "<S-down>") 'windmove-down)
+
 (provide 'key-bindings)
