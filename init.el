@@ -68,6 +68,7 @@
 (require 'setup-multiple-cursors)
 (require 'setup-smartparens)
 (require 'setup-smart-mode-line)
+(require 'setup-cider)
 
 ;; Setup key bindings
 (require 'key-bindings)
