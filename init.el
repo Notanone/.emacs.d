@@ -55,7 +55,7 @@
    groovy-mode
    solarized-theme
    cider
-   ))
+   kibit-helper ))
 
 (require 'appearance)
 
