@@ -55,7 +55,8 @@
    groovy-mode
    solarized-theme
    cider
-   kibit-helper ))
+   kibit-helper
+   dockerfile-mode))
 
 (require 'appearance)
 
