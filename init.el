@@ -44,7 +44,6 @@
  '(dash
    smartparens
    smex
-   guide-key
    flx-ido
    ido-ubiquitous
    ido-vertical-mode
@@ -56,7 +55,8 @@
    solarized-theme
    cider
    kibit-helper
-   dockerfile-mode))
+   dockerfile-mode
+   which-key))
 
 (require 'appearance)
 
@@ -64,12 +64,12 @@
 (require 'sane-defaults)
 
 (require 'setup-smex)
-(require 'setup-guide-key)
 (require 'setup-ido)
 (require 'setup-multiple-cursors)
 (require 'setup-smartparens)
 (require 'setup-smart-mode-line)
 (require 'setup-cider)
+(require 'setup-which-key)
 
 ;; Setup key bindings
 (require 'key-bindings)
