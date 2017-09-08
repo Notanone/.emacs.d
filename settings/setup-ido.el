@@ -1,9 +1,7 @@
 (require 'ido)
 (ido-mode t)
+(ido-everywhere t)
 
-;; Try out flx-ido for better flex matching between words
-(require 'flx-ido)
-(flx-ido-mode 1)
 ;; disable ido faces to see flx highlights.
 (setq ido-use-faces nil)
 
@@ -14,8 +12,7 @@
 ;; Always rescan buffer for imenu
 (set-default 'imenu-auto-rescan t)
 
-;; Use ido everywhere
-(require 'ido-ubiquitous)
+(require 'ido-completing-read+)
 (ido-ubiquitous-mode 1)
 
 ;; Ido at point (C-,)
